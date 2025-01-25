@@ -259,10 +259,12 @@ padding: 0 15px 0 15px;
 
 .team-icons-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
     padding: 0 16px;
     margin-top: 8px;
 }
+
 
 .team-person {
     font-weight: 500;
