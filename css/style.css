@@ -348,6 +348,10 @@ url("../images/people-office.jpg");
 .footer-main {
     background-color: #2e2f42;
     padding: 100px 0 100px;
+    
+}
+
+.footer-wrap {
     display: flex;
     align-items: baseline;
 }
@@ -355,6 +359,7 @@ url("../images/people-office.jpg");
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+
 }
 
 .logo-footer-studio {
@@ -367,6 +372,7 @@ url("../images/people-office.jpg");
     color: #f4f4fd;
 }
 
+
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -375,9 +381,8 @@ url("../images/people-office.jpg");
 }
 
 .footer-icons-list {
-    display: flex;
     align-items: center;
-    
+    display: flex;
 }
 
 .footer-icon-text {
@@ -386,5 +391,4 @@ url("../images/people-office.jpg");
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    display: flex;
 }
