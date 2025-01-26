@@ -372,7 +372,9 @@ url("../images/people-office.jpg");
     color: #f4f4fd;
 }
 
-
+.footer-icon-container {
+    display: flex;
+}
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
