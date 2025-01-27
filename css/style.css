@@ -86,7 +86,7 @@ padding: 0 15px 0 15px;
     position: relative;
 }
 
-.nav-list-item:first-child::after {
+.nav-list-link:after {
     color: #404bbf;
     content: '';
     width: 100%;
@@ -213,10 +213,6 @@ url("../images/people-office.jpg");
 .advantages {
     padding-top: 120px;
     padding-bottom: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
 }
 .adv-list {
     display: flex;
@@ -233,6 +229,10 @@ url("../images/people-office.jpg");
     border: 1px solid #8e8f99;
     border-radius: 4px;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
 }
 
 .adv-title {
@@ -294,6 +294,8 @@ url("../images/people-office.jpg");
 
 .team-icon-item {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 40px;
+    height: 40px;
 }
 
 .team-icon {
@@ -468,9 +470,11 @@ url("../images/people-office.jpg");
 .footer-icon-item {
     width: 40px;
     height: 40px;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-icon-item .footer-link {
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer-link {
     width: 100%;
     height: 100%;
@@ -479,7 +483,7 @@ url("../images/people-office.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .footer-link:hover,
